@@ -3,15 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>P3 · Desplegament amb CDN</title>
+  <title>Pàgina web de proves · DAW2</title>
   <style>
-    body{font-family:system-ui,sans-serif;max-width:40rem;margin:4rem auto;padding:0 1rem;line-height:1.5}
-    code{background:#eee;padding:.1em .3em;border-radius:3px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f4f6fb;color:#1f2937;line-height:1.6}
+    header{background:#1e3a8a;color:#fff;padding:2.5rem 1.5rem;text-align:center}
+    header h1{margin:0 0 .4rem;font-size:1.9rem}
+    header p{margin:0;opacity:.85}
+    main{max-width:42rem;margin:2rem auto;padding:0 1.25rem}
+    section{background:#fff;border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+    h2{margin-top:0;font-size:1.2rem;color:#1e3a8a}
+    ul{padding-left:1.2rem;margin:.5rem 0 0}
+    footer{text-align:center;color:#6b7280;font-size:.9rem;padding:1.5rem}
   </style>
 </head>
 <body>
-  <h1>P3 · Gestió i administració de seguretat d'un servidor web</h1>
-  <p>Aquesta pàgina es serveix des del servidor d'origen a través de la CDN de Cloudflare.</p>
-  <p>Mòdul 0614 · DAW2 · curs 2026/27</p>
+  <header>
+    <h1>Desplegament d'aplicacions web</h1>
+    <p>Mòdul 0614 · DAW2 · Curs 2026/27</p>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre aquesta pàgina</h2>
+      <p>Pàgina estàtica senzilla que he fet servir per practicar el desplegament d'un lloc web i comprovar com arriba als usuaris.</p>
+    </section>
+    <section>
+      <h2>Què he practicat</h2>
+      <ul>
+        <li>Publicar una pàgina web en un servidor.</li>
+        <li>Fer-la arribar a través d'una xarxa de distribució de contingut (CDN).</li>
+        <li>Comprovar la resolució DNS i les capçaleres HTTP.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>Pàgina de proves · 2026</footer>
 </body>
 </html>
